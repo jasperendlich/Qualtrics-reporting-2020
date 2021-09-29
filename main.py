@@ -231,9 +231,6 @@ def profed_post(course_id, course_run):
 
 
 # To-do
-edx_pre('SA01x', '1T2021')
-edx_post('SA01x', '1T2021')
-
 survey_list = pd.read_excel('Survey links 2021.xlsx', header=1)
 to_do_list = survey_list[['Course_code', 'Code', 'Start date', 'End date', 'Platform', 'Delivery method', 'Pre-survey course status', 'Post-survey course status']]
 
